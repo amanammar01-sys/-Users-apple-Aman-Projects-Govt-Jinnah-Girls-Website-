@@ -1,0 +1,74 @@
+[
+  {
+    "id": "se1",
+    "title": "Admissions Open — Session 2026-27",
+    "date": "Aug 1, 2026",
+    "time": "8:00 AM – 2:00 PM",
+    "venue": "Administration Block",
+    "status": "upcoming",
+    "category": "ceremony"
+  },
+  {
+    "id": "se2",
+    "title": "Orientation for New Students",
+    "date": "Sep 5, 2026",
+    "time": "10:00 AM – 12:00 PM",
+    "venue": "Main Auditorium",
+    "status": "upcoming",
+    "category": "ceremony"
+  },
+  {
+    "id": "se3",
+    "title": "Annual Sports Gala",
+    "date": "Mar 15, 2026",
+    "time": "9:00 AM – 3:00 PM",
+    "venue": "Sports Ground",
+    "status": "completed",
+    "category": "sports"
+  },
+  {
+    "id": "se4",
+    "title": "Fine Arts Exhibition",
+    "date": "Feb 20, 2026",
+    "time": "11:00 AM – 4:00 PM",
+    "venue": "Arts Hall",
+    "status": "completed",
+    "category": "cultural"
+  },
+  {
+    "id": "se5",
+    "title": "Punjab Cultural Day",
+    "date": "Mar 14, 2026",
+    "time": "10:00 AM – 2:00 PM",
+    "venue": "College Campus",
+    "status": "completed",
+    "category": "cultural"
+  },
+  {
+    "id": "se6",
+    "title": "Independence Day Celebrations",
+    "date": "Aug 14, 2026",
+    "time": "8:00 AM – 12:00 PM",
+    "venue": "Main Ground",
+    "status": "upcoming",
+    "category": "national"
+  },
+  {
+    "id": "se7",
+    "title": "Debate & Speech Competition",
+    "date": "Apr 10, 2026",
+    "time": "10:00 AM – 1:00 PM",
+    "venue": "Seminar Hall",
+    "status": "ongoing",
+    "category": "academic"
+  },
+  {
+    "id": "se8",
+    "title": "Mehfil-e-Milad-e-Mustafa",
+    "date": "Sep 15, 2026",
+    "time": "2:00 PM – 5:00 PM",
+    "venue": "Prayer Room",
+    "status": "upcoming",
+    "category": "religious"
+  }
+]

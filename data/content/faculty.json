@@ -1,0 +1,606 @@
+{
+  "teaching": [
+    {
+      "name": "Name of the Officer",
+      "designation": "Designation",
+      "department": "Subject",
+      "qualification": "Qualification",
+      "contact": null,
+      "type": "teaching"
+    },
+    {
+      "name": "Dr. Nazia Khurshed",
+      "designation": "Principal",
+      "department": "Zoology",
+      "qualification": "Phd. Zoology",
+      "contact": "0333-4268885",
+      "type": "teaching"
+    },
+    {
+      "name": "Dr. Aliya Imam",
+      "designation": "Professor",
+      "department": "Urdu",
+      "qualification": "Phd.",
+      "contact": "03314336036",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Tahira Saghir",
+      "designation": "Professor",
+      "department": "Chemistry",
+      "qualification": "Phd. Chemistry",
+      "contact": "0321-4671481",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Farheen Hussnain",
+      "designation": "Assoc Professor",
+      "department": "English",
+      "qualification": "M.A English",
+      "contact": "0306-4740869",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Alia Fawad",
+      "designation": "Assoc Professor",
+      "department": "Statistics",
+      "qualification": "M.Sc Statistics",
+      "contact": "0321-4599332",
+      "type": "teaching"
+    },
+    {
+      "name": "Dr. Taqdees Zahra",
+      "designation": "Assoc Professor",
+      "department": "Urdu",
+      "qualification": "Ph.D",
+      "contact": "3334205542.0",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Rizwana Abbas",
+      "designation": "Assoc Professor",
+      "department": "English",
+      "qualification": "M.A.English",
+      "contact": "3007302228.0",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Gul-i-Saba",
+      "designation": "Assoc Professor",
+      "department": "History",
+      "qualification": "M.Phil  History",
+      "contact": "0300-9414751",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Moazma Batool",
+      "designation": "Assoc Professor",
+      "department": "English",
+      "qualification": "M.A Eng",
+      "contact": "0331-4992483",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Anila Kehkashan",
+      "designation": "Assoc Professor",
+      "department": "Urdu",
+      "qualification": "M.AUrdu",
+      "contact": "0334-4087022",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Fiaz Kausar",
+      "designation": "Assoc Professor",
+      "department": "Chemistry",
+      "qualification": "M.Phil Chemistry",
+      "contact": "0334-9867803",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Shams-un-Nisa",
+      "designation": "Assoc Professor",
+      "department": "Math",
+      "qualification": "M.Sc Math",
+      "contact": "0323-4814454",
+      "type": "teaching"
+    },
+    {
+      "name": "Dr. Rabia Omar Hayat",
+      "designation": "Assistant Professor",
+      "department": "Arabic",
+      "qualification": "Ph.D",
+      "contact": "0333-9998245",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Alia Rasheed",
+      "designation": "Assistant Professor",
+      "department": "Fine Arts",
+      "qualification": "M.Phill Fine Arts",
+      "contact": "0321-4899288",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Tasneem Shaukat",
+      "designation": "Assistant Professor",
+      "department": "History",
+      "qualification": "M.A. History",
+      "contact": "0321-8501026",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Rizwana Majeed",
+      "designation": "Assistant Professor",
+      "department": "Physics",
+      "qualification": "M.Sc Physics",
+      "contact": "0333-6302775",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Safia Rani",
+      "designation": "Assistant Professor",
+      "department": "Chemistry",
+      "qualification": "M.Sc Chemistry",
+      "contact": "0332-4110530",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Hafiza Ismat Fatima",
+      "designation": "Assistant Professor",
+      "department": "Math",
+      "qualification": "Ph D Math",
+      "contact": "0333-8264836",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Sumra Inbisaat",
+      "designation": "Assistant Professor",
+      "department": "English",
+      "qualification": "M.Phil English",
+      "contact": "0331-4045632",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Ambreen Iftikhar",
+      "designation": "Assistant Professor",
+      "department": "Economics",
+      "qualification": "M.Phil Economics",
+      "contact": "0300-8834732",
+      "type": "teaching"
+    },
+    {
+      "name": "Dr. Sadia Faisal",
+      "designation": "Assistant Professor",
+      "department": "Education",
+      "qualification": "Ph.D Education",
+      "contact": "0333-7496392",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Sadia Zahid",
+      "designation": "Assistant Professor",
+      "department": "English",
+      "qualification": "M.A English",
+      "contact": "0321-7842894",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Aasia Munir",
+      "designation": "Assistant Professor",
+      "department": "Urdu",
+      "qualification": "M.A. Urdu",
+      "contact": "0332-4406596",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Uam-I- Masoom",
+      "designation": "Assistant Professor",
+      "department": "Fine Arts",
+      "qualification": "MFA Fine Arts",
+      "contact": "0335-7314440",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Tayyaba Rafiq",
+      "designation": "Assistant Professor",
+      "department": "Statistics",
+      "qualification": "M. Phil",
+      "contact": "0321-4194484",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Nasreen Shahzadi",
+      "designation": "Assistant Professor",
+      "department": "Pak Studies",
+      "qualification": "M.Phil  Pak Studies",
+      "contact": "0334-5956404",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Ayesha Usman",
+      "designation": "Assistant Professor",
+      "department": "Fine Arts",
+      "qualification": "MA Fine Arts",
+      "contact": "0332-4707648",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Riffat Shahid",
+      "designation": "Lecturer",
+      "department": "Botany",
+      "qualification": "M.Sc Botany",
+      "contact": "0310-4712800",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Maria Ali",
+      "designation": "Lecturer",
+      "department": "Islamiate",
+      "qualification": "Masters",
+      "contact": "0339-4115600",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Urfa Ali",
+      "designation": "Lecturer",
+      "department": "Economics",
+      "qualification": "M.Phil Economics",
+      "contact": "0331-6431626",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Rabia Karim",
+      "designation": "Lecturer",
+      "department": "Psychology",
+      "qualification": "MS Psychology",
+      "contact": "0331-4914874",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Samia Khaliq",
+      "designation": "Lecturer",
+      "department": "Computer Science",
+      "qualification": "B.C.S Computer Science",
+      "contact": "3234041632.0",
+      "type": "teaching"
+    },
+    {
+      "name": "Sadia Kausar",
+      "designation": "Lecturer",
+      "department": "Urdu",
+      "qualification": "M. Phil",
+      "contact": "3229530297.0",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Sana Qasim",
+      "designation": "Lecturer",
+      "department": "Persian",
+      "qualification": "P.hd",
+      "contact": "0333-4648187",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Afshan Noreen",
+      "designation": "Lecturer",
+      "department": "Library Science",
+      "qualification": "Masters",
+      "contact": "0302-4977703",
+      "type": "teaching"
+    },
+    {
+      "name": "Nimrah Rahman",
+      "designation": "Lecturer",
+      "department": "Urdu",
+      "qualification": "Ms Urdu",
+      "contact": "0322-8008219   0333-4328637",
+      "type": "teaching"
+    },
+    {
+      "name": "Mehwish Mahrukh Iqbal",
+      "designation": "Lecturer",
+      "department": "Biology",
+      "qualification": "M.Phil",
+      "contact": "0322-4520650",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms. Salma Batool",
+      "designation": "Librarian",
+      "department": "MLIS",
+      "qualification": "Masters",
+      "contact": "0333-4441874",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms.Syeda Zahira Ikram",
+      "designation": "Lecturer",
+      "department": "English",
+      "qualification": "M.Phil",
+      "contact": "0320-5404571",
+      "type": "teaching"
+    },
+    {
+      "name": "Ms.Kiran Afzal",
+      "designation": "Lecturer",
+      "department": "Sociology",
+      "qualification": "BS Honz Sociology",
+      "contact": "0302-4417621",
+      "type": "teaching"
+    },
+    {
+      "name": "Dr. Misbah Noor",
+      "designation": "Lecturer",
+      "department": "Education",
+      "qualification": "Ph.D",
+      "contact": "0335-0211010",
+      "type": "teaching"
+    },
+    {
+      "name": "Mis Ateeqa Tanveer Khan",
+      "designation": "Lecturer",
+      "department": "Pol. Science",
+      "qualification": "M. Phil",
+      "contact": "0323-8457414",
+      "type": "teaching"
+    },
+    {
+      "name": "Miss. Bushra Akram",
+      "designation": "Lecturer",
+      "department": "Psychology",
+      "qualification": "MS Clinical Psychology",
+      "contact": "0324-6344984",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Nighat Fatima",
+      "designation": "Lecturer",
+      "department": "Physics",
+      "qualification": "M.Sc Physics",
+      "contact": "0300-4404934",
+      "type": "teaching"
+    },
+    {
+      "name": "Mrs. Aysha Saddiqa",
+      "designation": "Lecturer",
+      "department": "Education",
+      "qualification": "M.A",
+      "contact": "0306-6260602",
+      "type": "teaching"
+    },
+    {
+      "name": "Miss. Lala Rukh",
+      "designation": "Lecturer",
+      "department": "Islamiate",
+      "qualification": "MS/M.Phil",
+      "contact": "0306-6431434",
+      "type": "teaching"
+    },
+    {
+      "name": "Miss. Tamania Naeem",
+      "designation": "Lecturer",
+      "department": "Physics",
+      "qualification": "MS/M.Phil",
+      "contact": "0322-7490907",
+      "type": "teaching"
+    }
+  ],
+  "nonTeaching": [
+    {
+      "name": "Name of the Official",
+      "designation": "Designation",
+      "department": "Administration",
+      "qualification": "Qualification",
+      "contact": null,
+      "type": "non-teaching"
+    },
+    {
+      "name": "Sultan Mahmmod",
+      "designation": "Superintendant",
+      "department": "Administration",
+      "qualification": "B.A",
+      "contact": "0333-4321902",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Syed Shamoon Naqvi",
+      "designation": "Assistant",
+      "department": "Administration",
+      "qualification": "F.A",
+      "contact": "0321-4215654",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Shahid Ishfaq",
+      "designation": "Senior Clerk",
+      "department": "Administration",
+      "qualification": "M.A",
+      "contact": "0301-4199328",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Nadeem Abbas",
+      "designation": "Senior Clerk",
+      "department": "Administration",
+      "qualification": "B.A 2nd Division",
+      "contact": "0345-4352836",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Muhammad Ishaq",
+      "designation": "Lab Supervisor",
+      "department": "Administration",
+      "qualification": "B.A",
+      "contact": "0303-4290840  (0332-4659699)",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Muffakim ud Din",
+      "designation": "Junior Clerk",
+      "department": "Administration",
+      "qualification": "MBA",
+      "contact": "0320-4878017",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Hafiz Irfan Younas",
+      "designation": "Senior Lecture Asst",
+      "department": "Administration",
+      "qualification": "Matric",
+      "contact": "0322-4907920",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Amna Bibi",
+      "designation": "Naib Qasid",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0336-4281176",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Khurrum shazaid",
+      "designation": "Naib Qasid",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0346-4457760",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Umar Raseed",
+      "designation": "Naib Qasid",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0322-4043169",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Saima Ashraf",
+      "designation": "Lab Attendant",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0321-4727087",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Ali Sabir",
+      "designation": "Lab Attendant",
+      "department": "Administration",
+      "qualification": "Matric",
+      "contact": "0302-4110268",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Sana Gull",
+      "designation": "Lab Attendant",
+      "department": "Administration",
+      "qualification": "Middle",
+      "contact": "0335-4045978",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Muhammad Nouman",
+      "designation": "Security Guard",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0323-4402751",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Arif Masih",
+      "designation": "Sanitary Worker",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0322-8005710",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Abdul Rehman",
+      "designation": "Mali",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0300-8818064",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Muhammad Aqib",
+      "designation": "Chowkidar",
+      "department": "Administration",
+      "qualification": "I.Com",
+      "contact": "0322-4331925/\n0300-4580261",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Muhammad Ali",
+      "designation": "Chowkidar",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0322-4180809",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Shoaib Ikram",
+      "designation": "Bus Condector",
+      "department": "Administration",
+      "qualification": "F.A",
+      "contact": "0335-4012321/\n0300-8082456",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Haroon",
+      "designation": "Sweeper",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "4236360695.0",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Michael Gill",
+      "designation": "Sweeper",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0322-4341478",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Danish Jahangir",
+      "designation": "Bail Dar",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0320-1416871",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Sohail Ahmed",
+      "designation": "Water Man",
+      "department": "Administration",
+      "qualification": "Matric",
+      "contact": "0321-7787629",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Mr. Tanveer Manzoor",
+      "designation": "Security Guard",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0333-4209063",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Ali Raza",
+      "designation": "Naib Qasid",
+      "department": "Administration",
+      "qualification": "F.A",
+      "contact": "0311-0360004",
+      "type": "non-teaching"
+    },
+    {
+      "name": "Muhammad Zeeshan",
+      "designation": "Bail Dar",
+      "department": "Administration",
+      "qualification": null,
+      "contact": "0321-4292226",
+      "type": "non-teaching"
+    }
+  ]
+}
