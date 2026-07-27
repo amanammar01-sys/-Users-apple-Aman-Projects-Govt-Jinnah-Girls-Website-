@@ -44,7 +44,7 @@ export default function Hero() {
         className="relative min-h-[420px] w-full overflow-hidden sm:min-h-[480px] lg:min-h-[520px]"
       >
         <Image
-          src="/images/banner.png"
+          src="/images/banner1.png"
           alt="Govt. Jinnah Graduate College for Women campus banner"
           fill
           className="object-cover object-[70%_center] sm:object-right"
