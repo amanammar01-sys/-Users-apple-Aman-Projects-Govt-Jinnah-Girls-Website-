@@ -56,8 +56,8 @@ export default function Hero() {
         <div className="pointer-events-none absolute inset-y-0 left-0 w-full bg-gradient-to-r from-navy-950/90 via-navy-900/70 to-navy-900/15 sm:via-navy-900/55 lg:w-[58%] lg:from-navy-950/85 lg:via-navy-900/65 lg:to-transparent" />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy-950/50 via-transparent to-transparent sm:hidden" />
 
-        <div className="site-container absolute inset-0 z-10 flex items-center">
-          <div className="grid w-full items-center lg:grid-cols-[minmax(0,520px)_1fr] lg:gap-12">
+        <div className="site-container absolute inset-0 z-10 flex items-center justify-start">
+          <div className="w-full max-w-xl text-left lg:max-w-[520px]">
             <div className="rounded-2xl bg-navy-950/35 px-5 py-8 backdrop-blur-[2px] sm:px-7 sm:py-10 lg:bg-transparent lg:px-0 lg:py-12 lg:backdrop-blur-none">
               <motion.span
                 initial={{ opacity: 0, y: 16 }}
@@ -93,7 +93,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.45, duration: 0.6 }}
-                className="mt-7 flex flex-wrap gap-3"
+                className="mt-7 flex flex-wrap justify-start gap-3"
               >
                 <Link
                   href="/contact"
@@ -110,9 +110,6 @@ export default function Hero() {
                 </Link>
               </motion.div>
             </div>
-
-            {/* Right side intentionally open for gate photo */}
-            <div className="hidden lg:block" aria-hidden="true" />
           </div>
         </div>
       </motion.div>
