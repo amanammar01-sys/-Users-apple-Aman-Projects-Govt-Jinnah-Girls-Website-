@@ -36,28 +36,29 @@ const stats = [
 export default function Hero() {
   return (
     <section className="relative pb-0">
-      {/* Full-width banner */}
+      {/* Full-width banner — full image, no crop */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-        className="relative min-h-[420px] w-full overflow-hidden sm:min-h-[480px] lg:min-h-[520px]"
+        className="relative w-full overflow-hidden bg-navy-950"
       >
         <Image
           src="/images/banner1.png"
           alt="Govt. Jinnah Graduate College for Women campus banner"
-          fill
-          className="object-cover object-[70%_center] sm:object-right"
+          width={1625}
+          height={968}
+          className="h-auto w-full object-contain"
           priority
           sizes="100vw"
         />
-        {/* Dark scrim on the left for readable text; gate stays clear on the right */}
-        <div className="absolute inset-y-0 left-0 w-full bg-gradient-to-r from-navy-950/95 via-navy-900/80 to-navy-900/20 sm:via-navy-900/70 lg:w-[62%] lg:from-navy-950/90 lg:via-navy-900/75 lg:to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 via-transparent to-transparent sm:hidden" />
+        {/* Dark scrim on the left for readable text */}
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-full bg-gradient-to-r from-navy-950/90 via-navy-900/70 to-navy-900/15 sm:via-navy-900/55 lg:w-[58%] lg:from-navy-950/85 lg:via-navy-900/65 lg:to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy-950/50 via-transparent to-transparent sm:hidden" />
 
-        <div className="site-container relative z-10 flex min-h-[420px] items-center sm:min-h-[480px] lg:min-h-[520px]">
+        <div className="site-container absolute inset-0 z-10 flex items-center">
           <div className="grid w-full items-center lg:grid-cols-[minmax(0,520px)_1fr] lg:gap-12">
-            <div className="rounded-2xl bg-navy-950/35 px-5 py-10 backdrop-blur-[2px] sm:px-7 sm:py-12 lg:bg-transparent lg:px-0 lg:py-16 lg:backdrop-blur-none">
+            <div className="rounded-2xl bg-navy-950/35 px-5 py-8 backdrop-blur-[2px] sm:px-7 sm:py-10 lg:bg-transparent lg:px-0 lg:py-12 lg:backdrop-blur-none">
               <motion.span
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
