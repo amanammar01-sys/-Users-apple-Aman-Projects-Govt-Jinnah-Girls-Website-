@@ -50,8 +50,8 @@ export default function Header() {
         scrolled ? "shadow-md shadow-royal/5" : "border-b border-gray-100"
       }`}
     >
-      <div className="mx-auto flex h-14 w-full max-w-site items-center justify-between gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6">
-        <Link href="/" className="flex min-w-0 flex-1 items-start gap-2 sm:items-center sm:gap-2.5">
+      <div className="mx-auto flex h-14 w-full max-w-site items-center gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6">
+        <Link href="/" className="flex min-w-0 max-w-[75%] items-start gap-2 sm:max-w-none sm:items-center sm:gap-2.5">
           <Image
             src="/college-logo.jpeg"
             alt="Govt. Jinnah Graduate College logo"
@@ -67,7 +67,7 @@ export default function Header() {
           </div>
         </Link>
 
-        <div className="hidden shrink-0 items-center gap-0.5 xl:flex">
+        <div className="ml-auto hidden shrink-0 items-center gap-0.5 xl:flex">
           <nav className="flex items-center gap-0.5">
             {navLinks.map((link, index) => (
               <Link
@@ -91,7 +91,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-navy-700 hover:bg-gray-50 xl:hidden"
+          className="ml-auto inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-navy-700 hover:bg-gray-50 xl:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
           aria-expanded={mobileOpen}
