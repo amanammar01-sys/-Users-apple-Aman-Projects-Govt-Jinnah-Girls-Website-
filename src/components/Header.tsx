@@ -50,10 +50,10 @@ export default function Header() {
         scrolled ? "shadow-md shadow-royal/5" : "border-b border-gray-100"
       }`}
     >
-      <div className="mx-auto flex h-14 w-full max-w-site items-center gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6">
+      <div className="flex h-14 w-full items-center gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6 lg:px-10">
         <Link
           href="/"
-          className="flex min-w-0 max-w-[75%] items-start gap-2 sm:max-w-none sm:items-center sm:gap-2.5"
+          className="flex min-w-0 shrink-0 items-start gap-2 sm:items-center sm:gap-2.5"
         >
           <Image
             src="/college-logo.jpeg"
@@ -66,15 +66,15 @@ export default function Header() {
           <div className="min-w-0">
             <p className="text-left text-[10px] font-bold leading-tight text-navy-900 sm:text-xs md:text-sm">
               <span className="block xl:hidden">Govt. Jinnah Graduate College for Women</span>
-              <span className="hidden xl:block xl:max-w-[300px] xl:truncate xl:text-[12px] 2xl:max-w-none 2xl:whitespace-nowrap 2xl:text-[13px]">
+              <span className="hidden xl:block xl:max-w-[290px] xl:truncate xl:text-[12px] 2xl:max-w-none 2xl:whitespace-nowrap 2xl:text-[13px]">
                 Govt. Jinnah Graduate College for Women
               </span>
             </p>
           </div>
         </Link>
 
-        <div className="ml-auto hidden shrink-0 items-center gap-0.5 xl:flex">
-          <nav className="flex items-center gap-0.5">
+        <div className="ml-auto hidden flex-1 items-center justify-end gap-1 xl:flex">
+          <nav className="flex items-center justify-end gap-0.5">
             {navLinks.map((link, index) => (
               <Link
                 key={`${link.label}-${index}`}
