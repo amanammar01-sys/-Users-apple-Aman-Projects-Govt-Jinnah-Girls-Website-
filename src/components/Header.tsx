@@ -64,8 +64,11 @@ export default function Header() {
             priority
           />
           <div className="min-w-0">
-            <p className="text-left text-[10px] font-bold leading-tight text-navy-900 sm:text-xs md:text-sm xl:whitespace-nowrap xl:text-[13px]">
-              Govt. Jinnah Graduate College for Women
+            <p className="text-left text-[10px] font-bold leading-tight text-navy-900 sm:text-xs md:text-sm xl:text-[13px]">
+              <span className="block lg:hidden">Govt. Jinnah Graduate College for Women</span>
+              <span className="hidden whitespace-nowrap lg:block">
+                Govt. Jinnah Graduate College for Women
+              </span>
             </p>
           </div>
         </Link>
