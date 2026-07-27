@@ -174,12 +174,12 @@ export default function AboutPage() {
         <div className="container-wide">
           <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-navy-900 to-navy-900 shadow-md">
             <div className="grid lg:grid-cols-5">
-              <div className="relative aspect-square lg:aspect-auto lg:col-span-2">
+              <div className="relative aspect-square bg-navy-950 lg:aspect-auto lg:col-span-2">
                 <Image
                   src={principalMessage.photo}
                   alt={principalMessage.name}
                   fill
-                  className="object-cover object-top"
+                  className="object-contain object-top lg:object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />
               </div>

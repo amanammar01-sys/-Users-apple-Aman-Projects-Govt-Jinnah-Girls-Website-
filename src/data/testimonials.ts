@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "This college gave me confidence and academic excellence. The faculty is supportive and the campus environment is truly empowering for women.",
     name: "Ayesha Khan",
-    role: "BS English Student",
+    role: "ADP English Student",
     type: "student",
   },
   {

@@ -7,7 +7,7 @@ import { aboutContent } from "@/data/about";
 export const metadata: Metadata = {
   title: "Academics",
   description:
-    "Academic programs at Govt. Jinnah Graduate College for Women — Intermediate, Undergraduate, and BS programs.",
+    "Academic programs at Govt. Jinnah Graduate College for Women — Intermediate and ADP programs with a 2-year semester system.",
 };
 
 export default function AcademicsPage() {
@@ -44,8 +44,9 @@ export default function AcademicsPage() {
                 Undergraduate Programs
               </h2>
               <p className="mt-4 leading-relaxed text-navy-600">
-                Degree-level programs including newly launched BS courses, expanding
-                opportunities for women in higher education at Mozang, Lahore.
+                Degree-level programs offered as ADP under a 2-year semester
+                system, expanding opportunities for women in higher education at
+                Mozang, Lahore.
               </p>
               <ul className="mt-6 space-y-2 text-sm text-navy-700">
                 {aboutContent.programs.map((p) => (

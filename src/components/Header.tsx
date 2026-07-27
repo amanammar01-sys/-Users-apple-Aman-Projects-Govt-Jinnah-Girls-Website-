@@ -51,7 +51,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex h-14 w-full max-w-site items-center justify-between gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6">
-        <Link href="/" className="flex min-w-0 flex-1 items-center gap-2 sm:gap-2.5">
+        <Link href="/" className="flex min-w-0 flex-1 items-start gap-2 sm:items-center sm:gap-2.5">
           <Image
             src="/college-logo.jpeg"
             alt="Govt. Jinnah Graduate College logo"
@@ -60,10 +60,9 @@ export default function Header() {
             className="h-8 w-8 shrink-0 rounded-full object-cover ring-2 ring-royal/10 sm:h-10 sm:w-10"
             priority
           />
-          <div className="min-w-0 overflow-hidden">
-            <p className="truncate text-[11px] font-bold leading-tight text-navy-900 sm:text-sm">
-              <span className="lg:hidden">GJGCW Mozang</span>
-              <span className="hidden lg:inline">Govt. Jinnah Graduate College for Women</span>
+          <div className="min-w-0">
+            <p className="text-left text-[10px] font-bold leading-tight text-navy-900 sm:text-xs md:text-sm">
+              Govt. Jinnah Graduate College for Women
             </p>
           </div>
         </Link>
@@ -103,6 +102,11 @@ export default function Header() {
 
       {mobileOpen && (
         <nav className="max-h-[min(100dvh-3.5rem,100vh-3.5rem)] overflow-y-auto border-t border-gray-100 bg-white px-4 py-3 xl:hidden">
+          <div className="mb-2 border-b border-gray-100 pb-3">
+            <p className="text-left text-xs font-bold leading-tight text-navy-900">
+              Govt. Jinnah Graduate College for Women
+            </p>
+          </div>
           {navLinks.map((link, i) => (
             <Link
               key={`mobile-${link.label}-${i}`}

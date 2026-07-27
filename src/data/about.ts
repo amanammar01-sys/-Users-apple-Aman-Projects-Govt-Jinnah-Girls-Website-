@@ -29,9 +29,9 @@ export const aboutContent = {
   ],
   programs: [
     "F.A / F.Sc (Intermediate)",
-    "B.A / B.Sc (Undergraduate)",
-    "BS English",
-    "BS Computer Science",
+    "ADP Arts & Humanities (2-Year Semester System)",
+    "ADP English (2-Year Semester System)",
+    "ADP Computer Science (2-Year Semester System)",
     "Second Shift Programs",
   ],
   facilities: [

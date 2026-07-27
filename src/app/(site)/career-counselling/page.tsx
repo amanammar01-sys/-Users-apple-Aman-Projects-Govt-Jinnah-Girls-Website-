@@ -97,7 +97,7 @@ export default function CareerCounsellingPage() {
 
         <div className="site-container relative z-10 py-10 sm:py-16 lg:py-20">
           <div className="flex flex-col gap-6 sm:gap-8 lg:flex-row lg:items-center lg:justify-between">
-            <div className="flex min-w-0 items-start gap-3 sm:gap-4">
+            <div className="flex min-w-0 items-start gap-3 text-left sm:gap-4">
               <Image
                 src="/college-logo.jpeg"
                 alt="Govt. Jinnah Graduate College logo"
@@ -106,7 +106,7 @@ export default function CareerCounsellingPage() {
                 className="h-14 w-14 shrink-0 rounded-full object-cover ring-2 ring-white/30 sm:h-[72px] sm:w-[72px]"
                 priority
               />
-              <div className="min-w-0">
+              <div className="min-w-0 text-left">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-orange-300 sm:text-xs">
                   Student Support
                 </p>

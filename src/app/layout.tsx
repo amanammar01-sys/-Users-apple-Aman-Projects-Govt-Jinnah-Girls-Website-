@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     "women college Lahore",
     "Mozang college",
     "admissions 2026",
-    "BS English",
-    "BS Computer Science",
+    "ADP English",
+    "ADP Computer Science",
   ],
   openGraph: {
     title: "Govt. Jinnah Graduate College for Women",

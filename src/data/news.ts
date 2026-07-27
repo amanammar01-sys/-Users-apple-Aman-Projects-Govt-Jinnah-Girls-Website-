@@ -65,10 +65,10 @@ export const newsItems: NewsItem[] = [
     year: "2025",
   },
   {
-    id: "bs-programs",
-    title: "BS English & BS Computer Science",
+    id: "adp-programs",
+    title: "ADP English & ADP Computer Science",
     description:
-      "Two new undergraduate programs — BS English and BS Computer Science — have been launched, expanding academic opportunities for female students in higher education.",
+      "Two new undergraduate programs — ADP English and ADP Computer Science — have been launched under a 2-year semester system, expanding academic opportunities for female students in higher education.",
     category: "academic",
     icon: "graduation",
     year: "2025",

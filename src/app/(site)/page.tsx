@@ -102,7 +102,7 @@ export default async function HomePage() {
                     alt="Govt. Jinnah Graduate College campus"
                     width={600}
                     height={500}
-                    className="h-[260px] w-full object-cover sm:h-[400px] lg:h-[480px]"
+                    className="h-[260px] w-full bg-white object-contain sm:h-[400px] sm:object-cover lg:h-[480px]"
                   />
                 </div>
                 <div className="absolute bottom-0 left-3 rounded-xl border border-gray-100 bg-white p-4 shadow-card sm:left-4 sm:rounded-2xl sm:p-6">
@@ -122,7 +122,7 @@ export default async function HomePage() {
             large
             label="Academics"
             title="Academic Programs That Empower Your Future"
-            description="From Intermediate to Undergraduate — explore diverse pathways designed to build knowledge, skills, and confidence for every student."
+            description="From Intermediate to ADP — explore diverse pathways designed to build knowledge, skills, and confidence for every student."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7">
             {programs.map((program, i) => (

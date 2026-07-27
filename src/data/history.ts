@@ -62,7 +62,7 @@ export const historySections = [
     title: "Academic Development",
     icon: "book",
     content:
-      "Initially there were only few subjects at Inter and Degree level but later on more subjects were added. The institution now offers programs including F.A, F.Sc, B.A, B.Sc, and has recently launched BS English and BS Computer Science. The college claims its outstanding position of performance among other Govt. Colleges and has earned a respectable repute and status of professional excellence.",
+      "Initially there were only few subjects at Inter and Degree level but later on more subjects were added. The institution now offers programs including F.A, F.Sc, and ADP programs under a 2-year semester system, including ADP English and ADP Computer Science. The college claims its outstanding position of performance among other Govt. Colleges and has earned a respectable repute and status of professional excellence.",
   },
   {
     id: "campus",
@@ -75,7 +75,7 @@ export const historySections = [
       { year: "2004", event: "Second Shift program started" },
       { year: "2010", event: "Jinnah Newsletter launched" },
       { year: "2011", event: "Prayer room constructed" },
-      { year: "2025", event: "BS English & Computer Science launched" },
+      { year: "2025", event: "ADP English & Computer Science launched (2-year semester system)" },
     ],
   },
   {
