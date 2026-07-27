@@ -51,7 +51,10 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex h-14 w-full max-w-site items-center gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6">
-        <Link href="/" className="flex min-w-0 max-w-[75%] items-start gap-2 sm:max-w-none sm:items-center sm:gap-2.5">
+        <Link
+          href="/"
+          className="flex min-w-0 max-w-[75%] items-start gap-2 sm:max-w-none sm:items-center sm:gap-2.5"
+        >
           <Image
             src="/college-logo.jpeg"
             alt="Govt. Jinnah Graduate College logo"
@@ -61,7 +64,7 @@ export default function Header() {
             priority
           />
           <div className="min-w-0">
-            <p className="text-left text-[10px] font-bold leading-tight text-navy-900 sm:text-xs md:text-sm">
+            <p className="text-left text-[10px] font-bold leading-tight text-navy-900 sm:text-xs md:text-sm xl:whitespace-nowrap xl:text-[13px]">
               Govt. Jinnah Graduate College for Women
             </p>
           </div>
