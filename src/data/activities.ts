@@ -63,4 +63,12 @@ export const campusActivities: CampusActivity[] = [
     image: "/images/page4_img21.jpeg",
     category: "academic",
   },
+  {
+    id: "teachers-day",
+    title: "Teacher's Day Celebration",
+    description:
+      "Students honored their teachers with performances, tributes, and heartfelt messages celebrating dedication and guidance.",
+    image: "/images/teachers-day.png",
+    category: "cultural",
+  },
 ];
