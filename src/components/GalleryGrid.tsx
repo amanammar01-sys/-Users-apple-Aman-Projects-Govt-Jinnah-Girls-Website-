@@ -46,7 +46,7 @@ export default function GalleryGrid({ images, limit, showFilters = true }: Galle
         </div>
       )}
 
-      <div className="columns-2 gap-3 sm:columns-3 sm:gap-4 lg:gap-5">
+      <div className="columns-1 gap-3 sm:columns-2 sm:gap-4 lg:columns-3 lg:gap-5">
         {displayed.map((image, index) => (
           <FadeIn key={image.id} delay={index * 0.05}>
             <button

@@ -5,24 +5,32 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
-    @apply bg-white text-navy-700 antialiased;
+    @apply overflow-x-hidden bg-white text-navy-700 antialiased;
+  }
+
+  img,
+  video,
+  svg {
+    max-width: 100%;
+    height: auto;
   }
 }
 
 @layer components {
   .site-container {
-    @apply mx-auto w-full max-w-site px-5 sm:px-6;
+    @apply mx-auto w-full max-w-site px-4 sm:px-6;
   }
 
   .container-wide {
-    @apply mx-auto w-full max-w-site px-5 sm:px-6;
+    @apply mx-auto w-full max-w-site px-4 sm:px-6;
   }
 
   .section-padding {
-    @apply py-16 sm:py-20 lg:py-24;
+    @apply py-12 sm:py-16 lg:py-24;
   }
 
   .card-premium {
@@ -30,10 +38,10 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-royal px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:bg-royal-600 hover:shadow-md;
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-royal px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-royal-600 hover:shadow-md sm:px-6 sm:py-3;
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-royal/30 bg-white px-6 py-3 text-sm font-semibold text-royal transition-all hover:bg-royal-50;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-royal/30 bg-white px-5 py-2.5 text-sm font-semibold text-royal transition-all hover:bg-royal-50 sm:px-6 sm:py-3;
   }
 }

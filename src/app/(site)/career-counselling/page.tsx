@@ -95,22 +95,22 @@ export default function CareerCounsellingPage() {
         <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-orange-500/20 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-24 left-10 h-56 w-56 rounded-full bg-orange-400/10 blur-3xl" />
 
-        <div className="site-container relative z-10 py-14 sm:py-16 lg:py-20">
-          <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
-            <div className="flex items-start gap-4">
+        <div className="site-container relative z-10 py-10 sm:py-16 lg:py-20">
+          <div className="flex flex-col gap-6 sm:gap-8 lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex min-w-0 items-start gap-3 sm:gap-4">
               <Image
                 src="/college-logo.jpeg"
                 alt="Govt. Jinnah Graduate College logo"
                 width={72}
                 height={72}
-                className="h-16 w-16 rounded-full object-cover ring-2 ring-white/30 sm:h-[72px] sm:w-[72px]"
+                className="h-14 w-14 shrink-0 rounded-full object-cover ring-2 ring-white/30 sm:h-[72px] sm:w-[72px]"
                 priority
               />
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-orange-300">
+              <div className="min-w-0">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-orange-300 sm:text-xs">
                   Student Support
                 </p>
-                <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
+                <h1 className="mt-1.5 text-2xl font-bold tracking-tight sm:mt-2 sm:text-4xl lg:text-5xl">
                   Career Counselling Centre
                 </h1>
                 <p className="mt-2 text-sm font-medium text-white/80 sm:text-base">
@@ -147,7 +147,7 @@ export default function CareerCounsellingPage() {
                 Today
               </div>
 
-              <h2 className="text-3xl font-bold leading-tight text-navy-900 sm:text-4xl">
+              <h2 className="text-2xl font-bold leading-tight text-navy-900 sm:text-4xl">
                 Discover Your Path.{" "}
                 <span className="text-[#0b2d5c]">Build Your Future.</span>
               </h2>
@@ -215,7 +215,7 @@ export default function CareerCounsellingPage() {
             <p className="text-sm font-semibold uppercase tracking-widest text-orange-500">
               Our Centre
             </p>
-            <h2 className="mt-2 text-3xl font-bold text-navy-900 sm:text-4xl">
+            <h2 className="mt-2 text-2xl font-bold text-navy-900 sm:text-4xl">
               A Space Built for Guidance & Growth
             </h2>
             <p className="mt-3 text-gray-600">
@@ -257,7 +257,7 @@ export default function CareerCounsellingPage() {
             <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-orange-50 text-orange-500">
               <Sparkles className="h-6 w-6" />
             </div>
-            <h2 className="text-3xl font-bold text-navy-900 sm:text-4xl">Counselling Services</h2>
+            <h2 className="text-2xl font-bold text-navy-900 sm:text-4xl">Counselling Services</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
               Our Counseling Centre supports students across academics, wellbeing, skills, and career readiness.
             </p>

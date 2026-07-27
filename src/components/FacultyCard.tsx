@@ -31,18 +31,22 @@ export default function FacultyCard({ member }: FacultyCardProps) {
           {initials}
         </div>
         <div className="min-w-0 flex-1">
-          <h3 className="font-semibold leading-tight text-navy-900">{member.name}</h3>
-          <p className="mt-0.5 text-sm font-medium text-royal">{member.designation}</p>
+          <div className="flex flex-wrap items-start justify-between gap-2">
+            <div className="min-w-0">
+              <h3 className="font-semibold leading-tight text-navy-900">{member.name}</h3>
+              <p className="mt-0.5 text-sm font-medium text-royal">{member.designation}</p>
+            </div>
+            <span
+              className={`shrink-0 rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
+                member.type === "teaching"
+                  ? "bg-royal-50 text-royal"
+                  : "bg-gray-100 text-gray-600"
+              }`}
+            >
+              {member.type === "teaching" ? "Teaching" : "Staff"}
+            </span>
+          </div>
         </div>
-        <span
-          className={`shrink-0 rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
-            member.type === "teaching"
-              ? "bg-royal-50 text-royal"
-              : "bg-gray-100 text-gray-600"
-          }`}
-        >
-          {member.type === "teaching" ? "Teaching" : "Staff"}
-        </span>
       </div>
 
       <div className="space-y-2 text-sm text-gray-500">

@@ -57,8 +57,8 @@ export default function AboutPage() {
               </Link>
             </div>
 
-            <div className="relative">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-md">
+            <div className="relative pb-8 sm:pb-10">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-md sm:rounded-3xl">
                 <Image
                   src="/images/page3_img1.jpeg"
                   alt="College campus activity"
@@ -67,8 +67,8 @@ export default function AboutPage() {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 rounded-2xl bg-navy-700 p-6 text-white shadow-md">
-                <p className="font-display text-3xl font-bold">35+</p>
+              <div className="absolute bottom-0 left-3 rounded-xl bg-navy-700 p-4 text-white shadow-md sm:left-0 sm:rounded-2xl sm:p-6">
+                <p className="font-display text-2xl font-bold sm:text-3xl">35+</p>
                 <p className="text-sm text-navy-200">Years of Service</p>
               </div>
             </div>

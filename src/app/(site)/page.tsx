@@ -60,54 +60,54 @@ export default async function HomePage() {
         <div className="site-container">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <FadeIn direction="left">
-              <span className="inline-block rounded-full bg-royal-50 px-5 py-2 text-sm font-semibold uppercase tracking-widest text-royal">
+              <span className="inline-block rounded-full bg-royal-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-royal sm:px-5 sm:py-2 sm:text-sm">
                 About Us
               </span>
-              <h2 className="mt-5 text-3xl font-bold leading-snug tracking-tight text-navy-900 sm:text-4xl lg:leading-tight">
+              <h2 className="mt-4 text-2xl font-bold leading-snug tracking-tight text-navy-900 sm:mt-5 sm:text-4xl lg:leading-tight">
                 A Legacy of Learning — Shaping Leaders Since 1990
               </h2>
-              <p className="mt-6 text-lg leading-relaxed text-gray-600">
+              <p className="mt-4 text-base leading-relaxed text-gray-600 sm:mt-6 sm:text-lg">
                 {aboutPreview.intro}
               </p>
-              <div className="mt-8 rounded-2xl border border-royal/15 border-l-4 border-l-royal bg-royal-50/40 p-6 sm:p-8">
-                <h3 className="text-2xl font-bold text-navy-900 sm:text-3xl">Our Mission</h3>
-                <p className="mt-4 text-lg leading-relaxed text-gray-700 sm:text-xl sm:leading-relaxed">
+              <div className="mt-6 rounded-2xl border border-royal/15 border-l-4 border-l-royal bg-royal-50/40 p-5 sm:mt-8 sm:p-8">
+                <h3 className="text-xl font-bold text-navy-900 sm:text-3xl">Our Mission</h3>
+                <p className="mt-3 text-base leading-relaxed text-gray-700 sm:mt-4 sm:text-xl sm:leading-relaxed">
                   {aboutPreview.mission}
                 </p>
               </div>
-              <div className="mt-9 grid grid-cols-2 gap-4">
+              <div className="mt-6 grid grid-cols-2 gap-3 sm:mt-9 sm:gap-4">
                 {aboutPreview.highlights.map((item) => (
                   <div
                     key={item.label}
-                    className="rounded-xl border border-gray-100 bg-gray-50 p-5"
+                    className="rounded-xl border border-gray-100 bg-gray-50 p-3.5 sm:p-5"
                   >
-                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">
+                    <p className="text-[10px] font-semibold uppercase tracking-wide text-gray-400 sm:text-xs">
                       {item.label}
                     </p>
-                    <p className="mt-1.5 text-base font-bold text-navy-900 sm:text-lg">{item.value}</p>
+                    <p className="mt-1 text-sm font-bold text-navy-900 sm:mt-1.5 sm:text-lg">{item.value}</p>
                   </div>
                 ))}
               </div>
-              <Link href="/about" className="btn-primary mt-9 px-7 py-3.5 text-base">
+              <Link href="/about" className="btn-primary mt-7 sm:mt-9 sm:px-7 sm:py-3.5 sm:text-base">
                 Learn More
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </FadeIn>
 
             <FadeIn direction="right" delay={0.15}>
-              <div className="relative">
-                <div className="overflow-hidden rounded-3xl shadow-card">
+              <div className="relative pb-8 sm:pb-10">
+                <div className="overflow-hidden rounded-2xl shadow-card sm:rounded-3xl">
                   <Image
                     src="/images/page1_img7.jpeg"
                     alt="Govt. Jinnah Graduate College campus"
                     width={600}
                     height={500}
-                    className="h-[400px] w-full object-cover lg:h-[480px]"
+                    className="h-[260px] w-full object-cover sm:h-[400px] lg:h-[480px]"
                   />
                 </div>
-                <div className="absolute -bottom-6 -left-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-card sm:-left-6">
-                  <p className="text-4xl font-bold text-royal">35+</p>
-                  <p className="mt-1 text-base font-medium text-gray-500">Years of Excellence</p>
+                <div className="absolute bottom-0 left-3 rounded-xl border border-gray-100 bg-white p-4 shadow-card sm:-left-2 sm:rounded-2xl sm:p-6 lg:left-0">
+                  <p className="text-3xl font-bold text-royal sm:text-4xl">35+</p>
+                  <p className="mt-1 text-sm font-medium text-gray-500 sm:text-base">Years of Excellence</p>
                 </div>
               </div>
             </FadeIn>
@@ -143,13 +143,13 @@ export default async function HomePage() {
       {/* Admissions */}
       <section id="admissions" className="section-padding">
         <div className="site-container">
-          <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-royal via-royal-600 to-navy-900 p-8 sm:p-12 lg:p-16">
-            <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
+          <div className="overflow-hidden rounded-2xl bg-gradient-to-br from-royal via-royal-600 to-navy-900 p-6 sm:rounded-3xl sm:p-12 lg:p-16">
+            <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
               <FadeIn>
                 <span className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-amber-300">
                   Admissions
                 </span>
-                <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">
+                <h2 className="mt-4 text-2xl font-bold text-white sm:text-4xl">
                   {admissionsInfo.session}
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-gray-200">
@@ -342,10 +342,10 @@ export default async function HomePage() {
           <div className="grid gap-6 md:grid-cols-3">
             {testimonials.map((t, i) => (
               <FadeIn key={t.id} delay={i * 0.1}>
-                <blockquote className="flex h-full flex-col rounded-2xl border border-gray-100 bg-white p-7 shadow-card">
+                <blockquote className="flex h-full flex-col rounded-2xl border border-gray-100 bg-white p-5 shadow-card sm:p-7">
                   <div className="mb-4 text-4xl font-serif leading-none text-amber-400">&ldquo;</div>
                   <p className="flex-1 text-sm leading-relaxed text-gray-600">{t.quote}</p>
-                  <footer className="mt-6 border-t border-gray-100 pt-5">
+                  <footer className="mt-5 border-t border-gray-100 pt-4 sm:mt-6 sm:pt-5">
                     <p className="font-semibold text-navy-900">{t.name}</p>
                     <p className="text-xs text-gray-400">{t.role}</p>
                   </footer>
@@ -408,7 +408,7 @@ export default async function HomePage() {
             </FadeIn>
 
             <FadeIn className="lg:col-span-3" direction="right" delay={0.1}>
-              <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-card sm:p-8">
+              <div className="rounded-2xl border border-gray-100 bg-white p-5 shadow-card sm:p-8">
                 <h3 className="text-lg font-bold text-navy-900">Send us a Message</h3>
                 <p className="mt-1 text-sm text-gray-500">
                   Fill out the form below and we&apos;ll get back to you shortly.

@@ -27,11 +27,12 @@ export default function AdminBrand({
       />
       <div className="min-w-0">
         <p
-          className={`whitespace-nowrap text-sm font-bold leading-tight sm:text-base ${
+          className={`truncate text-sm font-bold leading-tight sm:text-base ${
             isLight ? "text-white" : "text-navy-900"
           }`}
         >
-          Govt. Jinnah Graduate College for Women
+          <span className="sm:hidden">GJGCW Admin</span>
+          <span className="hidden sm:inline">Govt. Jinnah Graduate College for Women</span>
         </p>
         {subtitle && (
           <p className={`text-xs sm:text-sm ${isLight ? "text-white/60" : "text-gray-500"}`}>

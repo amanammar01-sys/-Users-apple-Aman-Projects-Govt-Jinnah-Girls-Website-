@@ -30,6 +30,17 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileOpen]);
+
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
@@ -39,19 +50,20 @@ export default function Header() {
         scrolled ? "shadow-md shadow-royal/5" : "border-b border-gray-100"
       }`}
     >
-      <div className="flex h-[72px] w-full items-center justify-between gap-4 px-5 sm:px-6 lg:px-10">
-        <Link href="/" className="mr-auto flex shrink-0 items-center gap-3">
+      <div className="flex h-16 w-full items-center justify-between gap-3 px-4 sm:h-[72px] sm:gap-4 sm:px-6 lg:px-10">
+        <Link href="/" className="mr-auto flex min-w-0 items-center gap-2.5 sm:gap-3">
           <Image
             src="/college-logo.jpeg"
             alt="Govt. Jinnah Graduate College logo"
             width={42}
             height={42}
-            className="h-[42px] w-[42px] shrink-0 rounded-full object-cover ring-2 ring-royal/10"
+            className="h-9 w-9 shrink-0 rounded-full object-cover ring-2 ring-royal/10 sm:h-[42px] sm:w-[42px]"
             priority
           />
           <div className="min-w-0">
-            <p className="whitespace-nowrap text-sm font-bold leading-tight text-navy-900 sm:text-base">
-              Govt. Jinnah Graduate College for Women
+            <p className="text-xs font-bold leading-snug text-navy-900 sm:text-sm md:text-base">
+              <span className="sm:hidden">GJGCW Mozang</span>
+              <span className="hidden sm:inline">Govt. Jinnah Graduate College for Women</span>
             </p>
           </div>
         </Link>
@@ -62,7 +74,7 @@ export default function Header() {
               <Link
                 key={`${link.label}-${index}`}
                 href={link.href}
-                className={`shrink-0 whitespace-nowrap rounded-lg px-2.5 py-2 text-sm font-medium transition-colors hover:bg-royal-50 hover:text-royal ${
+                className={`shrink-0 whitespace-nowrap rounded-lg px-2 py-2 text-[13px] font-medium transition-colors hover:bg-royal-50 hover:text-royal 2xl:px-2.5 2xl:text-sm ${
                   isActive(link.href) ? "text-royal" : "text-navy-600"
                 }`}
               >
@@ -72,7 +84,7 @@ export default function Header() {
           </nav>
           <Link
             href="/contact"
-            className="ml-3 rounded-full bg-royal px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-royal-600 hover:shadow-md"
+            className="ml-2 rounded-full bg-royal px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-royal-600 hover:shadow-md 2xl:ml-3 2xl:px-5 2xl:py-2.5"
           >
             Apply Now
           </Link>
@@ -90,14 +102,14 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <nav className="border-t border-gray-100 bg-white px-5 py-4 xl:hidden">
+        <nav className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-gray-100 bg-white px-4 py-4 xl:hidden">
           {navLinks.map((link, i) => (
             <Link
               key={`mobile-${link.label}-${i}`}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className={`block whitespace-nowrap rounded-lg px-3 py-2.5 text-sm font-medium transition-colors hover:bg-royal-50 ${
-                isActive(link.href) ? "text-royal" : "text-navy-700"
+              className={`block rounded-lg px-3 py-3 text-sm font-medium transition-colors hover:bg-royal-50 ${
+                isActive(link.href) ? "bg-royal-50 text-royal" : "text-navy-700"
               }`}
             >
               {link.label}
@@ -106,7 +118,7 @@ export default function Header() {
           <Link
             href="/contact"
             onClick={() => setMobileOpen(false)}
-            className="mt-3 block rounded-full bg-royal py-2.5 text-center text-sm font-semibold text-white"
+            className="mt-3 block rounded-full bg-royal py-3 text-center text-sm font-semibold text-white"
           >
             Apply Now
           </Link>
