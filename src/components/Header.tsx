@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/about", label: "About Us" },
   { href: "/contact", label: "Admissions" },
   { href: "/academics", label: "Academics" },
+  { href: "/career-counselling", label: "Career Counselling" },
   { href: "/faculty", label: "Faculty" },
   { href: "/events", label: "Events" },
   { href: "/gallery", label: "Gallery" },
