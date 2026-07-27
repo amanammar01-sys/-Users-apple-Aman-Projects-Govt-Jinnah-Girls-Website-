@@ -6,17 +6,32 @@
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-x: clip;
+    max-width: 100%;
   }
 
   body {
-    @apply overflow-x-hidden bg-white text-navy-700 antialiased;
+    @apply overflow-x-clip bg-white text-navy-700 antialiased;
+    max-width: 100%;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
 
   img,
   video,
+  iframe,
   svg {
     max-width: 100%;
     height: auto;
+  }
+
+  table {
+    max-width: 100%;
   }
 }
 
@@ -30,7 +45,7 @@
   }
 
   .section-padding {
-    @apply py-12 sm:py-16 lg:py-24;
+    @apply py-10 sm:py-16 lg:py-24;
   }
 
   .card-premium {

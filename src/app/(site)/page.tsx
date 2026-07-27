@@ -105,7 +105,7 @@ export default async function HomePage() {
                     className="h-[260px] w-full object-cover sm:h-[400px] lg:h-[480px]"
                   />
                 </div>
-                <div className="absolute bottom-0 left-3 rounded-xl border border-gray-100 bg-white p-4 shadow-card sm:-left-2 sm:rounded-2xl sm:p-6 lg:left-0">
+                <div className="absolute bottom-0 left-3 rounded-xl border border-gray-100 bg-white p-4 shadow-card sm:left-4 sm:rounded-2xl sm:p-6">
                   <p className="text-3xl font-bold text-royal sm:text-4xl">35+</p>
                   <p className="mt-1 text-sm font-medium text-gray-500 sm:text-base">Years of Excellence</p>
                 </div>
@@ -235,10 +235,52 @@ export default async function HomePage() {
             ))}
           </div>
 
-          <FadeIn>
+          {/* Mobile: stacked event rows */}
+          <FadeIn className="md:hidden">
+            <div className="space-y-3">
+              {scheduledEvents.map((event) => (
+                <div
+                  key={event.id}
+                  className="rounded-2xl border border-gray-100 bg-white p-4 shadow-card"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <h3 className="font-semibold text-navy-900">{event.title}</h3>
+                    <span
+                      className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-semibold ${
+                        event.status === "upcoming"
+                          ? "bg-royal-50 text-royal"
+                          : event.status === "ongoing"
+                            ? "bg-amber-50 text-amber-700"
+                            : "bg-gray-100 text-gray-600"
+                      }`}
+                    >
+                      {event.status.charAt(0).toUpperCase() + event.status.slice(1)}
+                    </span>
+                  </div>
+                  <dl className="mt-3 grid grid-cols-1 gap-1.5 text-sm text-gray-500">
+                    <div>
+                      <dt className="inline font-medium text-gray-400">Date: </dt>
+                      <dd className="inline">{event.date}</dd>
+                    </div>
+                    <div>
+                      <dt className="inline font-medium text-gray-400">Time: </dt>
+                      <dd className="inline">{event.time}</dd>
+                    </div>
+                    <div>
+                      <dt className="inline font-medium text-gray-400">Venue: </dt>
+                      <dd className="inline">{event.venue}</dd>
+                    </div>
+                  </dl>
+                </div>
+              ))}
+            </div>
+          </FadeIn>
+
+          {/* Desktop/tablet table */}
+          <FadeIn className="hidden md:block">
             <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-card">
               <div className="overflow-x-auto">
-                <table className="w-full min-w-[640px] text-left text-sm">
+                <table className="w-full text-left text-sm">
                   <thead>
                     <tr className="border-b border-gray-100 bg-gray-50">
                       <th className="px-5 py-4 font-semibold text-navy-900">Event</th>

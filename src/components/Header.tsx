@@ -46,35 +46,35 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${
+      className={`sticky top-0 z-50 w-full max-w-[100vw] bg-white transition-shadow duration-300 ${
         scrolled ? "shadow-md shadow-royal/5" : "border-b border-gray-100"
       }`}
     >
-      <div className="flex h-16 w-full items-center justify-between gap-3 px-4 sm:h-[72px] sm:gap-4 sm:px-6 lg:px-10">
-        <Link href="/" className="mr-auto flex min-w-0 items-center gap-2.5 sm:gap-3">
+      <div className="mx-auto flex h-14 w-full max-w-site items-center justify-between gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6">
+        <Link href="/" className="flex min-w-0 flex-1 items-center gap-2 sm:gap-2.5">
           <Image
             src="/college-logo.jpeg"
             alt="Govt. Jinnah Graduate College logo"
-            width={42}
-            height={42}
-            className="h-9 w-9 shrink-0 rounded-full object-cover ring-2 ring-royal/10 sm:h-[42px] sm:w-[42px]"
+            width={40}
+            height={40}
+            className="h-8 w-8 shrink-0 rounded-full object-cover ring-2 ring-royal/10 sm:h-10 sm:w-10"
             priority
           />
-          <div className="min-w-0">
-            <p className="text-xs font-bold leading-snug text-navy-900 sm:text-sm md:text-base">
-              <span className="sm:hidden">GJGCW Mozang</span>
-              <span className="hidden sm:inline">Govt. Jinnah Graduate College for Women</span>
+          <div className="min-w-0 overflow-hidden">
+            <p className="truncate text-[11px] font-bold leading-tight text-navy-900 sm:text-sm">
+              <span className="lg:hidden">GJGCW Mozang</span>
+              <span className="hidden lg:inline">Govt. Jinnah Graduate College for Women</span>
             </p>
           </div>
         </Link>
 
-        <div className="hidden shrink-0 items-center gap-1 xl:flex">
-          <nav className="flex shrink-0 items-center gap-0.5">
+        <div className="hidden shrink-0 items-center gap-0.5 xl:flex">
+          <nav className="flex items-center gap-0.5">
             {navLinks.map((link, index) => (
               <Link
                 key={`${link.label}-${index}`}
                 href={link.href}
-                className={`shrink-0 whitespace-nowrap rounded-lg px-2 py-2 text-[13px] font-medium transition-colors hover:bg-royal-50 hover:text-royal 2xl:px-2.5 2xl:text-sm ${
+                className={`rounded-lg px-2 py-2 text-[13px] font-medium transition-colors hover:bg-royal-50 hover:text-royal 2xl:px-2.5 2xl:text-sm ${
                   isActive(link.href) ? "text-royal" : "text-navy-600"
                 }`}
               >
@@ -84,7 +84,7 @@ export default function Header() {
           </nav>
           <Link
             href="/contact"
-            className="ml-2 rounded-full bg-royal px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-royal-600 hover:shadow-md 2xl:ml-3 2xl:px-5 2xl:py-2.5"
+            className="ml-2 rounded-full bg-royal px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-royal-600 hover:shadow-md"
           >
             Apply Now
           </Link>
@@ -92,7 +92,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="rounded-lg p-2 text-navy-700 xl:hidden"
+          className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-navy-700 hover:bg-gray-50 xl:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
           aria-expanded={mobileOpen}
@@ -102,13 +102,13 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <nav className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-gray-100 bg-white px-4 py-4 xl:hidden">
+        <nav className="max-h-[min(100dvh-3.5rem,100vh-3.5rem)] overflow-y-auto border-t border-gray-100 bg-white px-4 py-3 xl:hidden">
           {navLinks.map((link, i) => (
             <Link
               key={`mobile-${link.label}-${i}`}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className={`block rounded-lg px-3 py-3 text-sm font-medium transition-colors hover:bg-royal-50 ${
+              className={`block rounded-lg px-3 py-3.5 text-base font-medium transition-colors hover:bg-royal-50 active:bg-royal-50 ${
                 isActive(link.href) ? "bg-royal-50 text-royal" : "text-navy-700"
               }`}
             >
@@ -118,7 +118,7 @@ export default function Header() {
           <Link
             href="/contact"
             onClick={() => setMobileOpen(false)}
-            className="mt-3 block rounded-full bg-royal py-3 text-center text-sm font-semibold text-white"
+            className="mt-3 mb-2 block rounded-full bg-royal py-3.5 text-center text-base font-semibold text-white"
           >
             Apply Now
           </Link>

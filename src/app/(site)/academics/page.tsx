@@ -22,9 +22,9 @@ export default function AcademicsPage() {
       <section className="section-padding">
         <div className="container-wide">
           <div className="grid gap-8 lg:grid-cols-2">
-            <div className="border border-gray-200 bg-white p-8">
+            <div className="border border-gray-200 bg-white p-5 sm:p-8">
               <span className="block h-0.5 w-10 bg-amber-500" />
-              <h2 className="mt-4 font-display text-2xl font-bold text-navy-900">
+              <h2 className="mt-4 font-display text-xl font-bold text-navy-900 sm:text-2xl">
                 Intermediate Programs
               </h2>
               <p className="mt-4 leading-relaxed text-navy-600">
@@ -38,9 +38,9 @@ export default function AcademicsPage() {
               </ul>
             </div>
 
-            <div className="border border-gray-200 bg-white p-8">
+            <div className="border border-gray-200 bg-white p-5 sm:p-8">
               <span className="block h-0.5 w-10 bg-amber-500" />
-              <h2 className="mt-4 font-display text-2xl font-bold text-navy-900">
+              <h2 className="mt-4 font-display text-xl font-bold text-navy-900 sm:text-2xl">
                 Undergraduate Programs
               </h2>
               <p className="mt-4 leading-relaxed text-navy-600">
@@ -57,7 +57,7 @@ export default function AcademicsPage() {
             </div>
           </div>
 
-          <div className="mt-12 border border-gray-200 bg-gray-50 p-8 text-center">
+          <div className="mt-12 border border-gray-200 bg-gray-50 p-5 text-center sm:p-8">
             <h3 className="font-display text-xl font-bold text-navy-900">
               Faculty & Academic Support
             </h3>

@@ -17,22 +17,18 @@ export default function FadeIn({
   direction = "up",
 }: FadeInProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-60px" });
+  const isInView = useInView(ref, { once: true, margin: "-40px" });
 
-  const offsets = {
-    up: { y: 32, x: 0 },
-    down: { y: -32, x: 0 },
-    left: { x: 32, y: 0 },
-    right: { x: -32, y: 0 },
-    none: { x: 0, y: 0 },
-  };
+  // Avoid horizontal offsets — they cause mobile overflow
+  const offsetY =
+    direction === "down" ? -24 : direction === "none" ? 0 : 24;
 
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, ...offsets[direction] }}
-      animate={isInView ? { opacity: 1, x: 0, y: 0 } : { opacity: 0, ...offsets[direction] }}
-      transition={{ duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] }}
+      initial={{ opacity: 0, y: offsetY }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: offsetY }}
+      transition={{ duration: 0.5, delay, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
       {children}

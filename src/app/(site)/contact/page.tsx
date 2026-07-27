@@ -73,14 +73,14 @@ export default function ContactPage() {
                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
                       <item.icon className="h-5 w-5" />
                     </div>
-                    <div>
+                    <div className="min-w-0 break-words">
                       <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
                         {item.title}
                       </p>
                       {item.href ? (
                         <a
                           href={item.href}
-                          className="mt-1 block font-semibold text-navy-900 hover:text-navy-700"
+                          className="mt-1 block break-all font-semibold text-navy-900 hover:text-navy-700"
                         >
                           {item.content}
                         </a>

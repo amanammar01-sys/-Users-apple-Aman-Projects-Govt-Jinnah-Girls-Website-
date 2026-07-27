@@ -52,13 +52,13 @@ export default function FacultySection({ staff }: FacultySectionProps) {
               className="w-full rounded-xl border border-gray-200 bg-white py-3 pl-11 pr-4 text-sm outline-none transition-colors focus:border-royal focus:ring-2 focus:ring-royal/10"
             />
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {(["all", "teaching", "non-teaching"] as FilterType[]).map((type) => (
               <button
                 key={type}
                 type="button"
                 onClick={() => setTypeFilter(type)}
-                className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
+                className={`rounded-full px-3 py-2 text-xs font-medium transition-all sm:px-4 sm:text-sm ${
                   typeFilter === type
                     ? "bg-royal text-white"
                     : "bg-white text-navy-600 shadow-sm hover:bg-royal-50"
