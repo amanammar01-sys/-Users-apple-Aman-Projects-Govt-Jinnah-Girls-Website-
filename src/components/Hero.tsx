@@ -56,14 +56,14 @@ export default function Hero() {
         <div className="pointer-events-none absolute inset-y-0 left-0 w-full bg-gradient-to-r from-navy-950/90 via-navy-900/70 to-navy-900/15 sm:via-navy-900/55 lg:w-[58%] lg:from-navy-950/85 lg:via-navy-900/65 lg:to-transparent" />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy-950/50 via-transparent to-transparent sm:hidden" />
 
-        <div className="site-container absolute inset-0 z-10 flex items-center justify-start">
-          <div className="w-full max-w-xl text-left lg:max-w-[520px]">
-            <div className="rounded-2xl bg-navy-950/35 px-5 py-8 backdrop-blur-[2px] sm:px-7 sm:py-10 lg:bg-transparent lg:px-0 lg:py-12 lg:backdrop-blur-none">
+        <div className="absolute inset-0 z-10 flex items-center justify-start">
+          <div className="w-full max-w-xl px-5 text-left sm:px-8 lg:max-w-[560px] lg:pl-10 lg:pr-6 xl:pl-16">
+            <div className="rounded-2xl bg-navy-950/35 px-5 py-8 text-left backdrop-blur-[2px] sm:px-7 sm:py-10 lg:bg-transparent lg:px-0 lg:py-12 lg:backdrop-blur-none">
               <motion.span
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15, duration: 0.5 }}
-                className="mb-4 inline-flex w-fit items-center rounded-full border border-amber-400/50 bg-navy-900/50 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-amber-200 backdrop-blur-sm"
+                className="mb-4 inline-flex w-fit items-center self-start rounded-full border border-amber-400/50 bg-navy-900/50 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-amber-200 backdrop-blur-sm"
               >
                 Established in 1990
               </motion.span>
@@ -72,7 +72,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.25, duration: 0.6 }}
-                className="text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] sm:text-4xl lg:text-[2.75rem] lg:leading-[1.2]"
+                className="text-left text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] sm:text-4xl lg:text-[2.75rem] lg:leading-[1.2]"
               >
                 <span className="block whitespace-nowrap">Empowering Women</span>
                 <span className="mt-1 block sm:whitespace-nowrap">
@@ -84,7 +84,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.35, duration: 0.6 }}
-                className="mt-4 text-base font-medium leading-relaxed text-white/95 drop-shadow-[0_1px_4px_rgba(0,0,0,0.4)] sm:text-lg"
+                className="mt-4 text-left text-base font-medium leading-relaxed text-white/95 drop-shadow-[0_1px_4px_rgba(0,0,0,0.4)] sm:text-lg"
               >
                 Govt. Jinnah Graduate College for Women
               </motion.p>
