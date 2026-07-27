@@ -19,7 +19,7 @@ export default function SectionHeading({
     <div className={`mb-8 sm:mb-12 ${align === "center" ? "text-center" : "text-left"}`}>
       <span
         className={`inline-block rounded-full font-semibold uppercase tracking-widest ${
-          large ? "px-4 py-1.5 text-xs sm:px-5 sm:py-2 sm:text-sm" : "px-3 py-1 text-[10px] sm:px-4 sm:py-1.5 sm:text-xs"
+          large ? "px-3 py-1 text-[10px] sm:px-5 sm:py-2 sm:text-sm" : "px-2.5 py-0.5 text-[9px] sm:px-4 sm:py-1.5 sm:text-xs"
         } ${
           light ? "bg-white/10 text-amber-300" : "bg-royal-50 text-royal"
         }`}
@@ -27,16 +27,16 @@ export default function SectionHeading({
         {label}
       </span>
       <h2
-        className={`mt-3 font-bold tracking-tight sm:mt-4 ${
-          large ? "text-2xl sm:text-4xl lg:text-5xl" : "text-2xl sm:text-3xl lg:text-4xl"
+        className={`mt-2.5 font-bold tracking-tight sm:mt-4 ${
+          large ? "text-xl sm:text-4xl lg:text-5xl" : "text-lg sm:text-3xl lg:text-4xl"
         } ${light ? "text-white" : "text-navy-900"}`}
       >
         {title}
       </h2>
       {description && (
         <p
-          className={`mx-auto mt-3 max-w-2xl leading-relaxed sm:mt-4 ${
-            large ? "text-base sm:text-lg lg:text-xl" : "text-sm sm:text-base"
+          className={`mx-auto mt-2.5 max-w-2xl text-[13px] leading-relaxed sm:mt-4 sm:text-base ${
+            large ? "sm:text-lg lg:text-xl" : ""
           } ${align === "center" ? "" : "mx-0"} ${
             light ? "text-gray-300" : "text-gray-500"
           }`}

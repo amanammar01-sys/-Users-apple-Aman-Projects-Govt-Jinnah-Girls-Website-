@@ -63,12 +63,12 @@ export function ActivityCard({ title, description, image }: ActivityCardProps) {
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent" />
-        <h3 className="absolute bottom-4 left-4 right-4 text-base font-bold text-white sm:text-lg">
+        <h3 className="absolute bottom-3 left-3 right-3 text-sm font-bold text-white sm:bottom-4 sm:left-4 sm:right-4 sm:text-lg">
           {title}
         </h3>
       </div>
       <div className="flex flex-1 flex-col p-5 sm:p-6">
-        <p className="text-sm leading-relaxed text-gray-600 sm:text-base sm:leading-relaxed">
+        <p className="text-xs leading-relaxed text-gray-600 sm:text-base sm:leading-relaxed">
           {description}
         </p>
       </div>

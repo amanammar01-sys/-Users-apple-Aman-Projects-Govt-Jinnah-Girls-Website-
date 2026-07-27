@@ -32,11 +32,11 @@ export default function PageHero({
           </p>
         )}
         <span className="mb-4 block h-0.5 w-10 bg-amber-500" aria-hidden="true" />
-        <h1 className="text-2xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
+        <h1 className="text-xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
           {title}
         </h1>
         {subtitle && (
-          <p className="mt-3 max-w-2xl text-sm text-gray-300 sm:mt-4 sm:text-base lg:text-lg">{subtitle}</p>
+          <p className="mt-2 max-w-2xl text-xs text-gray-300 sm:mt-4 sm:text-base lg:text-lg">{subtitle}</p>
         )}
       </div>
     </section>

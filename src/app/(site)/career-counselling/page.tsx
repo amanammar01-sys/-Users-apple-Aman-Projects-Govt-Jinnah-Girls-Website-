@@ -110,17 +110,17 @@ export default function CareerCounsellingPage() {
                 <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-orange-300 sm:text-xs">
                   Student Support
                 </p>
-                <h1 className="mt-1.5 text-2xl font-bold tracking-tight sm:mt-2 sm:text-4xl lg:text-5xl">
+                <h1 className="mt-1.5 text-xl font-bold tracking-tight sm:mt-2 sm:text-4xl lg:text-5xl">
                   Career Counselling Centre
                 </h1>
-                <p className="mt-2 text-sm font-medium text-white/80 sm:text-base">
+                <p className="mt-1.5 text-xs font-medium text-white/80 sm:mt-2 sm:text-base">
                   Govt. Jinnah Graduate College for Women, Mozang Lahore
                 </p>
               </div>
             </div>
 
             <div className="max-w-md rounded-2xl border border-white/15 bg-white/10 p-5 backdrop-blur-sm lg:p-6">
-              <p className="text-lg font-bold leading-snug sm:text-xl">
+              <p className="text-base font-bold leading-snug sm:text-xl">
                 Guiding you today.{" "}
                 <span className="text-orange-300">Empowering your tomorrow.</span>
               </p>
@@ -147,11 +147,11 @@ export default function CareerCounsellingPage() {
                 Today
               </div>
 
-              <h2 className="text-2xl font-bold leading-tight text-navy-900 sm:text-4xl">
+              <h2 className="text-xl font-bold leading-tight text-navy-900 sm:text-4xl">
                 Discover Your Path.{" "}
                 <span className="text-[#0b2d5c]">Build Your Future.</span>
               </h2>
-              <p className="mt-4 text-base text-gray-600 sm:text-lg">
+              <p className="mt-3 text-[13px] text-gray-600 sm:mt-4 sm:text-lg">
                 The right guidance today leads to a brighter tomorrow.
               </p>
 
@@ -162,7 +162,7 @@ export default function CareerCounsellingPage() {
                       <service.icon className="h-5 w-5" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-navy-900">{service.title}</h3>
+                      <h3 className="text-base font-bold text-navy-900 sm:text-lg">{service.title}</h3>
                       <p className="mt-0.5 text-sm text-gray-600">{service.description}</p>
                     </div>
                   </li>
@@ -215,7 +215,7 @@ export default function CareerCounsellingPage() {
             <p className="text-sm font-semibold uppercase tracking-widest text-orange-500">
               Our Centre
             </p>
-            <h2 className="mt-2 text-2xl font-bold text-navy-900 sm:text-4xl">
+            <h2 className="mt-2 text-xl font-bold text-navy-900 sm:text-4xl">
               A Space Built for Guidance & Growth
             </h2>
             <p className="mt-3 text-gray-600">
@@ -257,7 +257,7 @@ export default function CareerCounsellingPage() {
             <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-orange-50 text-orange-500">
               <Sparkles className="h-6 w-6" />
             </div>
-            <h2 className="text-2xl font-bold text-navy-900 sm:text-4xl">Counselling Services</h2>
+            <h2 className="text-xl font-bold text-navy-900 sm:text-4xl">Counselling Services</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
               Our Counseling Centre supports students across academics, wellbeing, skills, and career readiness.
             </p>
@@ -282,7 +282,7 @@ export default function CareerCounsellingPage() {
         <div className="pointer-events-none absolute -left-4 bottom-6 h-24 w-24 rounded-full border-[10px] border-orange-400/40" />
 
         <div className="site-container relative z-10 text-center">
-          <p className="text-2xl font-bold tracking-wide sm:text-3xl">
+          <p className="text-xl font-bold tracking-wide sm:text-3xl">
             Explore. <span className="text-orange-400">Plan.</span> Succeed.
           </p>
           <p className="mx-auto mt-3 max-w-xl text-white/75">

@@ -33,8 +33,8 @@ export default function FacultyCard({ member }: FacultyCardProps) {
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-start justify-between gap-2">
             <div className="min-w-0">
-              <h3 className="font-semibold leading-tight text-navy-900">{member.name}</h3>
-              <p className="mt-0.5 text-sm font-medium text-royal">{member.designation}</p>
+          <h3 className="font-semibold leading-tight text-navy-900 text-sm sm:text-base">{member.name}</h3>
+          <p className="mt-0.5 text-xs font-medium text-royal sm:text-sm">{member.designation}</p>
             </div>
             <span
               className={`shrink-0 rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
@@ -49,7 +49,7 @@ export default function FacultyCard({ member }: FacultyCardProps) {
         </div>
       </div>
 
-      <div className="space-y-2 text-sm text-gray-500">
+      <div className="space-y-2 text-xs text-gray-500 sm:text-sm">
         <div className="flex items-center gap-2">
           <Briefcase className="h-3.5 w-3.5 shrink-0 text-gray-400" />
           <span>{member.department}</span>

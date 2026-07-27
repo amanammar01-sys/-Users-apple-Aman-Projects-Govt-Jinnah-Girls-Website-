@@ -59,7 +59,7 @@ export default function ContactPage() {
           <div className="grid gap-12 lg:grid-cols-5">
             {/* Contact info */}
             <div className="lg:col-span-2">
-              <h2 className="font-display text-2xl font-bold text-navy-900">
+              <h2 className="font-display text-xl font-bold text-navy-900 sm:text-2xl">
                 Get In Touch
               </h2>
               <p className="mt-3 text-slate-600">
@@ -112,7 +112,7 @@ export default function ContactPage() {
             {/* Contact form */}
             <div className="lg:col-span-3">
               <div className="card-premium p-6 sm:p-8">
-                <h2 className="font-display text-2xl font-bold text-navy-900">
+                <h2 className="font-display text-xl font-bold text-navy-900 sm:text-2xl">
                   Send Us a Message
                 </h2>
                 <p className="mt-2 text-sm text-slate-600">

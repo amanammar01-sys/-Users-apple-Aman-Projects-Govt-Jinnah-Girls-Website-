@@ -58,7 +58,7 @@ export default function AcademicsPage() {
           </div>
 
           <div className="mt-12 border border-gray-200 bg-gray-50 p-5 text-center sm:p-8">
-            <h3 className="font-display text-xl font-bold text-navy-900">
+            <h3 className="font-display text-lg font-bold text-navy-900 sm:text-xl">
               Faculty & Academic Support
             </h3>
             <p className="mx-auto mt-3 max-w-xl text-navy-600">

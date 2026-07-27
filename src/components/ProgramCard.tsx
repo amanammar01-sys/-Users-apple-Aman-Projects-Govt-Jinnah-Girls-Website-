@@ -32,8 +32,8 @@ export default function ProgramCard({ program }: ProgramCardProps) {
       <span className="text-xs font-semibold uppercase tracking-wider text-amber-600 sm:text-sm">
         {program.level}
       </span>
-      <h3 className="mt-1 text-lg font-bold text-navy-900 sm:text-xl">{program.title}</h3>
-      <p className="mt-3 flex-1 text-sm leading-relaxed text-gray-600 sm:mt-4 sm:text-base">
+      <h3 className="mt-1 text-base font-bold text-navy-900 sm:text-xl">{program.title}</h3>
+      <p className="mt-2 flex-1 text-xs leading-relaxed text-gray-600 sm:mt-4 sm:text-base">
         {program.description}
       </p>
 

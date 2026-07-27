@@ -39,10 +39,10 @@ export default function AboutPage() {
               <span className="text-sm font-semibold uppercase tracking-wider text-navy-600">
                 Who We Are
               </span>
-              <h2 className="mt-2 font-display text-3xl font-bold text-navy-900 sm:text-4xl">
+              <h2 className="mt-2 font-display text-2xl font-bold text-navy-900 sm:text-4xl">
                 A Legacy of Excellence Since 1990
               </h2>
-              <p className="mt-6 text-lg leading-relaxed text-slate-600">
+              <p className="mt-4 text-[13px] leading-relaxed text-slate-600 sm:mt-6 sm:text-lg">
                 {aboutContent.intro}
               </p>
               <p className="mt-4 leading-relaxed text-slate-600">
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="absolute bottom-0 left-3 rounded-xl bg-navy-700 p-4 text-white shadow-md sm:left-0 sm:rounded-2xl sm:p-6">
-                <p className="font-display text-2xl font-bold sm:text-3xl">35+</p>
+                <p className="font-display text-xl font-bold sm:text-3xl">35+</p>
                 <p className="text-sm text-navy-200">Years of Service</p>
               </div>
             </div>
@@ -84,14 +84,14 @@ export default function AboutPage() {
               <div className="mb-4 inline-flex rounded-xl bg-blue-50 p-3 text-blue-700">
                 <Eye className="h-6 w-6" />
               </div>
-              <h3 className="font-display text-2xl font-bold text-navy-900">Our Vision</h3>
+              <h3 className="font-display text-lg font-bold text-navy-900 sm:text-2xl">Our Vision</h3>
               <p className="mt-4 leading-relaxed text-slate-600">{aboutContent.vision}</p>
             </div>
             <div className="card-premium p-8">
               <div className="mb-4 inline-flex rounded-xl bg-emerald-50 p-3 text-emerald-700">
                 <Target className="h-6 w-6" />
               </div>
-              <h3 className="font-display text-2xl font-bold text-navy-900">Our Mission</h3>
+              <h3 className="font-display text-lg font-bold text-navy-900 sm:text-2xl">Our Mission</h3>
               <p className="mt-4 leading-relaxed text-slate-600">{aboutContent.mission}</p>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function AboutPage() {
       <section className="section-padding">
         <div className="container-wide">
           <div className="text-center">
-            <h2 className="font-display text-3xl font-bold text-navy-900">Our Core Values</h2>
+            <h2 className="font-display text-2xl font-bold text-navy-900 sm:text-3xl">Our Core Values</h2>
             <p className="mx-auto mt-3 max-w-2xl text-slate-600">
               The principles that guide everything we do at {collegeInfo.shortName}.
             </p>
@@ -131,7 +131,7 @@ export default function AboutPage() {
               <div className="mb-4 inline-flex rounded-xl bg-purple-50 p-3 text-purple-700">
                 <BookOpen className="h-6 w-6" />
               </div>
-              <h3 className="font-display text-2xl font-bold text-navy-900">
+              <h3 className="font-display text-lg font-bold text-navy-900 sm:text-2xl">
                 Academic Programs
               </h3>
               <ul className="mt-6 space-y-3">
@@ -150,7 +150,7 @@ export default function AboutPage() {
               <div className="mb-4 inline-flex rounded-xl bg-amber-50 p-3 text-amber-700">
                 <Building2 className="h-6 w-6" />
               </div>
-              <h3 className="font-display text-2xl font-bold text-navy-900">
+              <h3 className="font-display text-lg font-bold text-navy-900 sm:text-2xl">
                 Campus Facilities
               </h3>
               <ul className="mt-6 space-y-3">
@@ -190,7 +190,7 @@ export default function AboutPage() {
                     Leadership
                   </span>
                 </div>
-                <h3 className="font-display text-2xl font-bold text-white sm:text-3xl">
+                <h3 className="font-display text-lg font-bold text-white sm:text-3xl">
                   {principalMessage.name}
                 </h3>
                 <p className="mt-1 text-navy-200">{principalMessage.title}</p>

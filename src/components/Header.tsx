@@ -108,7 +108,7 @@ export default function Header() {
               key={`mobile-${link.label}-${i}`}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className={`block rounded-lg px-3 py-3.5 text-base font-medium transition-colors hover:bg-royal-50 active:bg-royal-50 ${
+              className={`block rounded-lg px-3 py-3 text-sm font-medium transition-colors hover:bg-royal-50 active:bg-royal-50 ${
                 isActive(link.href) ? "bg-royal-50 text-royal" : "text-navy-700"
               }`}
             >
@@ -118,7 +118,7 @@ export default function Header() {
           <Link
             href="/contact"
             onClick={() => setMobileOpen(false)}
-            className="mt-3 mb-2 block rounded-full bg-royal py-3.5 text-center text-base font-semibold text-white"
+            className="mt-3 mb-2 block rounded-full bg-royal py-3 text-center text-sm font-semibold text-white"
           >
             Apply Now
           </Link>

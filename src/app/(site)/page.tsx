@@ -63,15 +63,15 @@ export default async function HomePage() {
               <span className="inline-block rounded-full bg-royal-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-royal sm:px-5 sm:py-2 sm:text-sm">
                 About Us
               </span>
-              <h2 className="mt-4 text-2xl font-bold leading-snug tracking-tight text-navy-900 sm:mt-5 sm:text-4xl lg:leading-tight">
+              <h2 className="mt-3 text-xl font-bold leading-snug tracking-tight text-navy-900 sm:mt-5 sm:text-4xl lg:leading-tight">
                 A Legacy of Learning — Shaping Leaders Since 1990
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600 sm:mt-6 sm:text-lg">
+              <p className="mt-3 text-[13px] leading-relaxed text-gray-600 sm:mt-6 sm:text-lg">
                 {aboutPreview.intro}
               </p>
-              <div className="mt-6 rounded-2xl border border-royal/15 border-l-4 border-l-royal bg-royal-50/40 p-5 sm:mt-8 sm:p-8">
-                <h3 className="text-xl font-bold text-navy-900 sm:text-3xl">Our Mission</h3>
-                <p className="mt-3 text-base leading-relaxed text-gray-700 sm:mt-4 sm:text-xl sm:leading-relaxed">
+              <div className="mt-5 rounded-2xl border border-royal/15 border-l-4 border-l-royal bg-royal-50/40 p-4 sm:mt-8 sm:p-8">
+                <h3 className="text-lg font-bold text-navy-900 sm:text-3xl">Our Mission</h3>
+                <p className="mt-2 text-[13px] leading-relaxed text-gray-700 sm:mt-4 sm:text-xl sm:leading-relaxed">
                   {aboutPreview.mission}
                 </p>
               </div>
@@ -106,8 +106,8 @@ export default async function HomePage() {
                   />
                 </div>
                 <div className="absolute bottom-0 left-3 rounded-xl border border-gray-100 bg-white p-4 shadow-card sm:left-4 sm:rounded-2xl sm:p-6">
-                  <p className="text-3xl font-bold text-royal sm:text-4xl">35+</p>
-                  <p className="mt-1 text-sm font-medium text-gray-500 sm:text-base">Years of Excellence</p>
+                  <p className="text-2xl font-bold text-royal sm:text-4xl">35+</p>
+                  <p className="mt-1 text-xs font-medium text-gray-500 sm:text-base">Years of Excellence</p>
                 </div>
               </div>
             </FadeIn>
@@ -149,10 +149,10 @@ export default async function HomePage() {
                 <span className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-amber-300">
                   Admissions
                 </span>
-                <h2 className="mt-4 text-2xl font-bold text-white sm:text-4xl">
+                <h2 className="mt-3 text-xl font-bold text-white sm:mt-4 sm:text-4xl">
                   {admissionsInfo.session}
                 </h2>
-                <p className="mt-4 text-base leading-relaxed text-gray-200">
+                <p className="mt-3 text-[13px] leading-relaxed text-gray-200 sm:mt-4 sm:text-base">
                   Join one of Lahore&apos;s most respected government colleges for women. Applications are now open for the upcoming academic session.
                 </p>
                 <Link
@@ -451,7 +451,7 @@ export default async function HomePage() {
 
             <FadeIn className="lg:col-span-3" direction="right" delay={0.1}>
               <div className="rounded-2xl border border-gray-100 bg-white p-5 shadow-card sm:p-8">
-                <h3 className="text-lg font-bold text-navy-900">Send us a Message</h3>
+                <h3 className="text-base font-bold text-navy-900 sm:text-lg">Send us a Message</h3>
                 <p className="mt-1 text-sm text-gray-500">
                   Fill out the form below and we&apos;ll get back to you shortly.
                 </p>
