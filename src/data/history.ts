@@ -41,6 +41,7 @@ export const historySections = [
       "Dr. Nasreen Raza",
       "Dr. Shahdia Khursheed",
       "Professor Zahida Siddique",
+      "Dr. Tahira Sikandar",
       "Dr. Nazia Khurshed (Current Principal)",
     ],
   },

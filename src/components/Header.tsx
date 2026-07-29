@@ -65,9 +65,9 @@ export default function Header() {
           />
           <div className="min-w-0">
             <p className="text-left text-[10px] font-bold leading-tight text-navy-900 sm:text-xs md:text-sm">
-              <span className="block xl:hidden">Govt. Jinnah Graduate College for Women</span>
-              <span className="hidden xl:block xl:max-w-[290px] xl:truncate xl:text-[12px] 2xl:max-w-none 2xl:whitespace-nowrap 2xl:text-[13px]">
-                Govt. Jinnah Graduate College for Women
+              <span className="block xl:hidden">Govt. Jinnah Graduate College (W), Mozang Lahore</span>
+              <span className="hidden xl:block xl:max-w-[340px] xl:truncate xl:text-[12px] 2xl:max-w-none 2xl:whitespace-nowrap 2xl:text-[13px]">
+                Govt. Jinnah Graduate College (W), Mozang Lahore
               </span>
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function Header() {
         <nav className="max-h-[min(100dvh-3.5rem,100vh-3.5rem)] overflow-y-auto border-t border-gray-100 bg-white px-4 py-3 xl:hidden">
           <div className="mb-2 border-b border-gray-100 pb-3">
             <p className="text-left text-xs font-bold leading-tight text-navy-900">
-              Govt. Jinnah Graduate College for Women
+              Govt. Jinnah Graduate College (W), Mozang Lahore
             </p>
           </div>
           {navLinks.map((link, i) => (
