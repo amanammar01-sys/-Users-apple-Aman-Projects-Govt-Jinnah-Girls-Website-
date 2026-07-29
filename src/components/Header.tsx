@@ -54,7 +54,7 @@ export default function Header() {
       <div className="flex h-14 w-full items-center gap-2 px-4 sm:h-16 sm:gap-3 sm:px-6 lg:px-10">
         <Link
           href="/"
-          className="flex min-w-0 shrink-0 items-start gap-2 sm:items-center sm:gap-2.5"
+          className="flex min-w-0 shrink-0 items-center gap-2 sm:gap-2.5"
         >
           <Image
             src="/college-logo.jpeg"
