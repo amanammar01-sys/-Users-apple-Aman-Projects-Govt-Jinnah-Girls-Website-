@@ -373,6 +373,29 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Alumnae */}
+      <section className="section-padding bg-white">
+        <div className="site-container">
+          <SectionHeading
+            label="Alumnae"
+            title="Celebrating the Success of Our Proud Alumnae"
+            description="Our graduates have gone on to achieve excellence in sports, arts, academia, and public service — making Jinnah College proud."
+          />
+          <FadeIn>
+            <div className="overflow-hidden rounded-2xl shadow-md">
+              <Image
+                src="/images/alumini.jpeg"
+                alt="Proud Alumnae of Govt. Jinnah Graduate College"
+                width={1200}
+                height={600}
+                className="w-full object-cover"
+                sizes="100vw"
+              />
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Testimonials */}
       <section className="section-padding bg-gray-50">
         <div className="site-container">
