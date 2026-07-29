@@ -76,10 +76,7 @@ export default async function MagazinePage() {
               <BookOpen className="h-3.5 w-3.5" />
               Our Editions
             </div>
-            <h2 className="text-2xl font-bold text-navy-900 sm:text-3xl">Explore Our Publications</h2>
-            <p className="mx-auto mt-3 max-w-xl text-gray-500">
-              Browse through our annual college magazines and archives.
-            </p>
+            <h2 className="text-2xl font-bold text-navy-900 sm:text-3xl">College Magazine Editions</h2>
           </div>
 
           {magazines.length === 0 ? (
@@ -143,8 +140,8 @@ export default async function MagazinePage() {
                       </ul>
                     )}
 
-                    <div className="mt-5">
-                      {mag.fileUrl ? (
+                    {mag.fileUrl ? (
+                      <div className="mt-5">
                         <a
                           href={mag.fileUrl}
                           target="_blank"
@@ -155,13 +152,8 @@ export default async function MagazinePage() {
                           View Magazine
                           <ExternalLink className="h-3.5 w-3.5" />
                         </a>
-                      ) : (
-                        <div className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gray-100 px-4 py-2.5 text-sm font-semibold text-gray-400">
-                          <BookOpen className="h-4 w-4" />
-                          Coming Soon
-                        </div>
-                      )}
-                    </div>
+                      </div>
+                    ) : null}
                   </div>
                 </div>
               ))}
