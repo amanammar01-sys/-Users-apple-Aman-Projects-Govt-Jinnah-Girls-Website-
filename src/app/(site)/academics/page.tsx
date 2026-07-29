@@ -28,25 +28,25 @@ export default function AcademicsPage() {
                 Intermediate Programs
               </h2>
               <p className="mt-4 leading-relaxed text-navy-600">
-                FA and F.Sc programs providing a strong academic foundation for
-                students pursuing higher education. Regular and second-shift options
-                are available to accommodate diverse student needs.
+                Intermediate F.A/F.Sc programs with multiple study streams to build
+                a strong academic foundation.
               </p>
               <ul className="mt-6 space-y-2 text-sm text-navy-700">
-                <li className="border-l-2 border-amber-500 pl-4">F.A (Faculty of Arts)</li>
-                <li className="border-l-2 border-amber-500 pl-4">F.Sc (Faculty of Science)</li>
+                <li className="border-l-2 border-amber-500 pl-4">Intermediate FA/FSC</li>
+                <li className="border-l-2 border-amber-500 pl-4">ICS</li>
+                <li className="border-l-2 border-amber-500 pl-4">Icom</li>
+                <li className="border-l-2 border-amber-500 pl-4">General Science</li>
               </ul>
             </div>
 
             <div className="border border-gray-200 bg-white p-5 sm:p-8">
               <span className="block h-0.5 w-10 bg-amber-500" />
               <h2 className="mt-4 font-display text-xl font-bold text-navy-900 sm:text-2xl">
-                Undergraduate Programs
+                Degree & Professional Programs
               </h2>
               <p className="mt-4 leading-relaxed text-navy-600">
-                Degree-level programs offered as ADP under a 2-year semester
-                system, expanding opportunities for women in higher education at
-                Mozang, Lahore.
+                BS, B.Ed, and ADP programs designed for advanced academic and
+                professional development.
               </p>
               <ul className="mt-6 space-y-2 text-sm text-navy-700">
                 {aboutContent.programs.map((p) => (

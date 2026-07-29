@@ -28,11 +28,11 @@ export const aboutContent = {
     },
   ],
   programs: [
-    "F.A / F.Sc (Intermediate)",
-    "ADP Arts & Humanities (2-Year Semester System)",
-    "ADP English (2-Year Semester System)",
-    "ADP Computer Science (2-Year Semester System)",
-    "Second Shift Programs",
+    "BS (4 years) English",
+    "BS (4 years) Computer Science",
+    "BS (4 years) Applied Psychology",
+    "B.ed (2.5 years) Semester system",
+    "ADP all science and arts subjects.",
   ],
   facilities: [
     "Science Block with modern laboratories",
