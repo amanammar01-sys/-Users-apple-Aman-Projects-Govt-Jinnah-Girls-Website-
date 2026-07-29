@@ -9,6 +9,7 @@ import type { CampusActivity } from "@/data/activities";
 import { galleryImages as gallerySeed } from "@/data/gallery";
 import type { GalleryImage } from "@/data/gallery";
 import type { ContactMessage } from "@/data/contact-messages";
+import { magazines as magazinesSeed, type Magazine } from "@/data/magazines";
 import { readContentFile, writeContentFile } from "./content-storage";
 
 export interface FacultyData {
@@ -22,6 +23,7 @@ const NEWS_FILE = "news.json";
 const ACTIVITIES_FILE = "activities.json";
 const GALLERY_FILE = "gallery.json";
 const MESSAGES_FILE = "messages.json";
+const MAGAZINES_FILE = "magazines.json";
 
 function filterPlaceholderStaff(data: FacultyData): FacultyMember[] {
   return [...data.teaching, ...data.nonTeaching].filter(
@@ -80,6 +82,14 @@ export async function getContactMessages(): Promise<ContactMessage[]> {
 
 export async function saveContactMessages(data: ContactMessage[]) {
   await writeContentFile(MESSAGES_FILE, data);
+}
+
+export async function getMagazinesContent(): Promise<Magazine[]> {
+  return readContentFile<Magazine[]>(MAGAZINES_FILE, magazinesSeed);
+}
+
+export async function saveMagazinesContent(data: Magazine[]) {
+  await writeContentFile(MAGAZINES_FILE, data);
 }
 
 export async function appendContactMessage(

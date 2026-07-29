@@ -15,6 +15,7 @@ const navLinks = [
   { href: "/faculty", label: "Faculty" },
   { href: "/events", label: "Events" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/magazine", label: "Magazine" },
   { href: "/contact", label: "Contact Us" },
 ];
 

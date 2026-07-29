@@ -1,6 +1,6 @@
 import AdminShell from "@/components/admin/AdminShell";
 import Link from "next/link";
-import { Users, Calendar, Newspaper, Sparkles, Images, Mail, ArrowUpRight, Shield } from "lucide-react";
+import { Users, Calendar, Newspaper, Sparkles, Images, Mail, ArrowUpRight, Shield, BookOpen } from "lucide-react";
 
 const cards = [
   {
@@ -42,6 +42,14 @@ const cards = [
     icon: Images,
     accent: "from-sky-500/10 to-sky-50",
     iconBg: "bg-sky-50 text-sky-600",
+  },
+  {
+    href: "/admin/magazine",
+    title: "College Magazine",
+    description: "Add, edit, or remove college magazine editions and their details.",
+    icon: BookOpen,
+    accent: "from-amber-500/10 to-yellow-50",
+    iconBg: "bg-amber-50 text-amber-700",
   },
   {
     href: "/admin/messages",

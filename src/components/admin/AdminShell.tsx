@@ -13,6 +13,7 @@ import {
   LogOut,
   ExternalLink,
   ChevronRight,
+  BookOpen,
 } from "lucide-react";
 import AdminBrand from "./AdminBrand";
 
@@ -23,6 +24,7 @@ const links = [
   { href: "/admin/news", label: "News", icon: Newspaper, description: "Updates" },
   { href: "/admin/activities", label: "Campus Life", icon: Sparkles, description: "Activities" },
   { href: "/admin/gallery", label: "Gallery", icon: Images, description: "Photos" },
+  { href: "/admin/magazine", label: "Magazine", icon: BookOpen, description: "Publications" },
   { href: "/admin/messages", label: "Messages", icon: Mail, description: "Inbox" },
 ];
 
