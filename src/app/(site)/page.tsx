@@ -122,7 +122,7 @@ export default async function HomePage() {
             large
             label="Academics"
             title="Academic Programs That Empower Your Future"
-            description="From Intermediate to ADP — explore diverse pathways designed to build knowledge, skills, and confidence for every student."
+            description="From Intermediate to BS, B.Ed and ADP — explore diverse pathways designed to build knowledge, skills, and confidence for every student."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7">
             {programs.map((program, i) => (
